@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B959678F1C600F01001E638B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B959678E1C600F01001E638B /* AppDelegate.swift */; };
+		B95967911C600F01001E638B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95967901C600F01001E638B /* ViewController.swift */; };
+		B95967941C600F01001E638B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95967921C600F01001E638B /* Main.storyboard */; };
+		B95967971C600F01001E638B /* MeetMeUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B95967951C600F01001E638B /* MeetMeUp.xcdatamodeld */; };
+		B95967991C600F01001E638B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95967981C600F01001E638B /* Assets.xcassets */; };
+		B959679C1C600F01001E638B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B959679A1C600F01001E638B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B959678B1C600F01001E638B /* MeetMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B959678E1C600F01001E638B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B95967901C600F01001E638B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B95967931C600F01001E638B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B95967961C600F01001E638B /* MeetMeUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeetMeUp.xcdatamodel; sourceTree = "<group>"; };
+		B95967981C600F01001E638B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B959679B1C600F01001E638B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B959679D1C600F01001E638B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B95967881C600F01001E638B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B95967821C600F01001E638B = {
+			isa = PBXGroup;
+			children = (
+				B959678D1C600F01001E638B /* MeetMeUp */,
+				B959678C1C600F01001E638B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B959678C1C600F01001E638B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B959678B1C600F01001E638B /* MeetMeUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B959678D1C600F01001E638B /* MeetMeUp */ = {
+			isa = PBXGroup;
+			children = (
+				B959678E1C600F01001E638B /* AppDelegate.swift */,
+				B95967901C600F01001E638B /* ViewController.swift */,
+				B95967921C600F01001E638B /* Main.storyboard */,
+				B95967981C600F01001E638B /* Assets.xcassets */,
+				B959679A1C600F01001E638B /* LaunchScreen.storyboard */,
+				B959679D1C600F01001E638B /* Info.plist */,
+				B95967951C600F01001E638B /* MeetMeUp.xcdatamodeld */,
+			);
+			path = MeetMeUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B959678A1C600F01001E638B /* MeetMeUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95967A01C600F01001E638B /* Build configuration list for PBXNativeTarget "MeetMeUp" */;
+			buildPhases = (
+				B95967871C600F01001E638B /* Sources */,
+				B95967881C600F01001E638B /* Frameworks */,
+				B95967891C600F01001E638B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetMeUp;
+			productName = MeetMeUp;
+			productReference = B959678B1C600F01001E638B /* MeetMeUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95967831C600F01001E638B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mobilemakers;
+				TargetAttributes = {
+					B959678A1C600F01001E638B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9X5Z8CHCXD;
+					};
+				};
+			};
+			buildConfigurationList = B95967861C600F01001E638B /* Build configuration list for PBXProject "MeetMeUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95967821C600F01001E638B;
+			productRefGroup = B959678C1C600F01001E638B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B959678A1C600F01001E638B /* MeetMeUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B95967891C600F01001E638B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B959679C1C600F01001E638B /* LaunchScreen.storyboard in Resources */,
+				B95967991C600F01001E638B /* Assets.xcassets in Resources */,
+				B95967941C600F01001E638B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95967871C600F01001E638B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95967911C600F01001E638B /* ViewController.swift in Sources */,
+				B95967971C600F01001E638B /* MeetMeUp.xcdatamodeld in Sources */,
+				B959678F1C600F01001E638B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B95967921C600F01001E638B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95967931C600F01001E638B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B959679A1C600F01001E638B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B959679B1C600F01001E638B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B959679E1C600F01001E638B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B959679F1C600F01001E638B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B95967A11C600F01001E638B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetMeUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobilemakers.MeetMeUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B95967A21C600F01001E638B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetMeUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobilemakers.MeetMeUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95967861C600F01001E638B /* Build configuration list for PBXProject "MeetMeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B959679E1C600F01001E638B /* Debug */,
+				B959679F1C600F01001E638B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95967A01C600F01001E638B /* Build configuration list for PBXNativeTarget "MeetMeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95967A11C600F01001E638B /* Debug */,
+				B95967A21C600F01001E638B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B95967951C600F01001E638B /* MeetMeUp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B95967961C600F01001E638B /* MeetMeUp.xcdatamodel */,
+			);
+			currentVersion = B95967961C600F01001E638B /* MeetMeUp.xcdatamodel */;
+			path = MeetMeUp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B95967831C600F01001E638B /* Project object */;
+}
