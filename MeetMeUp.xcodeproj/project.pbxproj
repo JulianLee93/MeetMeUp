@@ -56,9 +56,9 @@
 		B959678D1C600F01001E638B /* MeetMeUp */ = {
 			isa = PBXGroup;
 			children = (
-				B959678E1C600F01001E638B /* AppDelegate.swift */,
 				B95967901C600F01001E638B /* ViewController.swift */,
 				B95967921C600F01001E638B /* Main.storyboard */,
+				B959678E1C600F01001E638B /* AppDelegate.swift */,
 				B95967981C600F01001E638B /* Assets.xcassets */,
 				B959679A1C600F01001E638B /* LaunchScreen.storyboard */,
 				B959679D1C600F01001E638B /* Info.plist */,
