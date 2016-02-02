@@ -54,5 +54,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         return cell;
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let path: NSIndexPath = self.tableView.indexPathForSelectedRow!
+        let detailVC: DetailedViewController = segue.destinationViewController as! DetailedViewController
+        detailVC.detailedDictionaryObject = self.resultsArray.objectAtIndex(path.row) as! NSDictionary
+    }
+    
 }
+
+
 
